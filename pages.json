@@ -1,0 +1,62 @@
+{
+	"pages": [
+		// 首页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		// 登录
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		// 表单组件
+		{
+			"path": "components/echart/lineChart",
+			"style": {
+				"navigationStyle": "custom",
+				"mp-weixin": {
+					"usingComponents": {
+						"chart": "plugin://echarts/chart"
+					}
+				}
+			}
+		},
+		{
+			"path": "components/echart/pieChart",
+			"style": {
+				"navigationStyle": "custom",
+				"mp-weixin": {
+					"usingComponents": {
+						"chart": "plugin://echarts/chart"
+					}
+				}
+			}
+		},
+		{
+			"path": "components/echart/histogramChart",
+			"style": {
+				"navigationStyle": "custom",
+				"mp-weixin": {
+					"usingComponents": {
+						"chart": "plugin://echarts/chart"
+					}
+				}
+			}
+		}
+	],
+	"sitemapLocation": "sitemap.json",
+	"easycom": {
+		"autoscan": true
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ckd",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
